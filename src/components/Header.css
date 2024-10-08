@@ -1,0 +1,22 @@
+.header__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: aqua;
+    padding: 20px;
+    color: gray;
+    align-items: center;
+}
+.logo h2{
+    font-size: 30px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.btn button{
+    padding: 12px;
+    border: 1px solid white;
+    background-color: white;
+}

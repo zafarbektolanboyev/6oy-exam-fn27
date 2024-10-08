@@ -1,0 +1,31 @@
+.login-btn1{
+    width: 100%;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+}
+form input{
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #ccc;
+}
+.login-form{
+    justify-content: center;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 300px;
+    margin-top: 100px;
+    transition: all 0.5s;
+}
+.login-form h1{
+    font-size: 2rem;
+}
+.login-form:hover{
+    background-color: blue;
+    border: none;
+    transform: scale(1.1);
+}
+.login-form:hover button{
+    background-color: white;
+    color: black;
+}

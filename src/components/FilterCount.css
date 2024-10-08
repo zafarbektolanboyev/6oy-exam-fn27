@@ -1,0 +1,31 @@
+.filter-input{
+    width: 200px;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    height: 50px;
+}
+.input{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.count-btn{
+    padding: 10px;
+    width: 150px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    transition: all 0.5s;
+}
+.count-btn:hover{
+    border: 1px solid #ccc;
+    background-color: transparent;
+    color: #b3b1b1;
+    transform: scale(1.1);
+}
+.loader-container{
+    margin-left: -200px;
+}
